@@ -1,6 +1,11 @@
-android/** linguist-vendored
-ios/** linguist-vendored
-windows/** linguist-vendored
-linux/** linguist-vendored
-macos/** linguist-vendored
-web/** linguist-vendored
+# Vendor all non-Dart native boilerplate code across the entire repo
+*.cpp linguist-vendored
+*.cc linguist-vendored
+*.c linguist-vendored
+*.h linguist-vendored
+*.m linguist-vendored
+*.mm linguist-vendored
+*.swift linguist-vendored
+*.kt linguist-vendored
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
